@@ -19,37 +19,6 @@ The plugin uses the following ports to connect to the remote machine:
 - 135
 - 445
 
-## Flow Digram
-+--------------------------------------+
-| Automatic Password Management for    |
-| Windows IIS Application Pools        |
-+--------------------------------------+
-                  |
-                  v
-+--------------------------------------+
-|             Requirements              |
-| 1. Windows Script Host installed     |
-| 2. Enable Windows Script Host        |
-+--------------------------------------+
-                  |
-                  v
-+--------------------------------------+
-|           Communication               |
-| - Ports: 135, 445, Dynamic range      |
-+--------------------------------------+
-                  |
-                  v
-+--------------------------------------+
-|      Required Authorizations         |
-| - User in Administrators group       |
-| - Authorizations on WMI namespace   |
-+--------------------------------------+
-                  |
-                  v
-+--------------------------------------+
-| Configure Automatic Management for  |
-|   Windows 2012 and higher            |
-| - Platform Management               |
-| - Additional Logon Password          |
-+--------------------------------------+
+## Flow Diagram
+<img width="138" alt="image" src="https://github.com/niteshbhat/challenge/assets/7299171/58b63d2f-ed24-4ea2-98dc-1cc694ee1914">
 
