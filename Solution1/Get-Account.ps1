@@ -28,7 +28,7 @@ function Get-SafeMembersDetails {
 
 # Example usage
 $token = "YOUR_ACCESS_TOKEN"  # Replace with your actual access token
-$accountID = "123456"          # Replace with the actual account ID
+$SafeID = "123456"          # Replace with the actual account ID
 
 # Call the function to get account details
-Get-SafeMembersDetails -subdomain $subdomain -accountID $accountID -token $token
+Get-SafeMembersDetails -subdomain $subdomain -SafeID $SafeID -token $token
