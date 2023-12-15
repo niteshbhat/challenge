@@ -2,7 +2,7 @@ import requests
 
 def get_account_id_details(subdomain, account_id, token):
     # Construct the API URL
-    api_url = f"https://{subdomain}.privilegecloud.cyberark.com/PasswordVault/API/Accounts/{account_id}/"
+    api_url = f"https://{subdomain}.privilegecloud.cyberark.com/PasswordVault/API/safes/{SafeID}/members/*"
 
     try:
         # Set up headers with authentication token
