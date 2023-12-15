@@ -1,8 +1,8 @@
-# Get-AccountIDDetails PowerShell Function
+# Get-safeIDDetails PowerShell Function
 
 ## Overview
 
-The `Get-AccountIDDetails` PowerShell function is designed to retrieve account details from the CyberArk Privilege Cloud using a specified account ID, subdomain, and authentication token.
+The `Get-safeIDDetails` PowerShell function is designed to retrieve account details from the CyberArk Privilege Cloud using a specified safe ID, subdomain, and authentication token.
 
 ## Table of Contents
 
@@ -16,8 +16,8 @@ The `Get-AccountIDDetails` PowerShell function is designed to retrieve account d
 ```powershell
 # Example usage
 $token = "YOUR_ACCESS_TOKEN"  # Replace with your actual access token
-$accountID = "123456"          # Replace with the actual account ID
+$safeID = "123456"          # Replace with the actual account ID
 $subdomain = "your-subdomain"  # Replace with your actual subdomain
 
 # Call the function to get account details
-Get-AccountIDDetails -subdomain $subdomain -accountID $accountID -token $token
+Get-safeIDDetails -subdomain $subdomain -safetID $safeID -token $token
