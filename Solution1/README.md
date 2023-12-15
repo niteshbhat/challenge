@@ -9,9 +9,7 @@ The `Get-AccountIDDetails` PowerShell function is designed to retrieve account d
 - [Usage](#usage)
 - [Parameters](#parameters)
 - [API Endpoint](#api-endpoint)
-- [Error Handling](#error-handling)
-- [Dependencies](#dependencies)
-- [Note](#note)
+
 
 ## Usage
 
