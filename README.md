@@ -13,7 +13,7 @@ Provide an example of an automated process of your choosing related to CyberArk.
 
 # CyberArk API User Access Management Script
 
-In a production-type environment, additional security measures are implemented to ensure the safe storage of CyberArk API user access. The approach involves storing the API user access in a safe as an account and setting policies to restrict access only to specific machines. Access to this information is granted using a service account with a password access approach. Below is a script demonstrating these practices.
+In a production-type environment, additional security measures are implemented to ensure the safe storage of CyberArk API user access. The approach involves storing the API user access in a safe as an account and setting policies to restrict access only to specific machines. Access to this information is granted using a service account with a password less approach. Below is a script demonstrating these practices.
 
 ## Token Generation for the Challenge 
 
