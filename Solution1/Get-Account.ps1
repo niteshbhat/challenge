@@ -1,13 +1,13 @@
 # Function to retrieve account details by ID
-function Get-AccountIDDetails {
+function Get-SafeMembersDetails {
     param(
         [string]$subdomain,
-        [string]$accountID,
+        [string]$SafeID,
         [string]$token
     )
 
     # Construct the API URL
-    $apiUrl = "https://<subdomain>.privilegecloud.cyberark.com/PasswordVault/API/Accounts/$accountID/"
+    $apiUrl = "https://<subdomain>.privilegecloud.cyberark.com/PasswordVault/API/safes/$SafeID/members/*"
 
     try {
         # Set up headers with authentication token
@@ -31,4 +31,4 @@ $token = "YOUR_ACCESS_TOKEN"  # Replace with your actual access token
 $accountID = "123456"          # Replace with the actual account ID
 
 # Call the function to get account details
-Get-AccountDetails -subdomain $subdomain -accountID $accountID -token $token
+Get-SafeMembersDetails -subdomain $subdomain -accountID $accountID -token $token
