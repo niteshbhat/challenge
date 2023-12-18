@@ -13,7 +13,9 @@ if (-not (Get-Module -Name IdentityCommand -ListAvailable)) {
     Install-Module -Name IdentityCommand -Force -ErrorAction Stop
 }
 
+```
 # Import the modules
+```
 Import-Module -Name psPAS -ErrorAction Stop
 Import-Module -Name IdentityCommand -ErrorAction Stop
 
@@ -79,5 +81,9 @@ try {
     # Close PASSession which has been closed
     Close-PASSession
 }
+```
+
 ##  output 
+```
 <img width="530" alt="image" src="https://github.com/niteshbhat/challenge/assets/7299171/38b94772-19c2-44c0-ad7f-8f898cb6a3bf">
+```
